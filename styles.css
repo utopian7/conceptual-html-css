@@ -1,3 +1,19 @@
-h1{
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+}.hero{
+    background-image: url('Images/lion-1.jpg.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    height: 120vh;
+    background-repeat: no-repeat;
+}
+.hero h1{
+    color: azure ;
+    font-size: 90px;
+    text-align: justify;
+    font-weight: 900;
+    font-family: cursive;
+    letter-spacing: 5px;
+    padding-top: 10px;
 }
