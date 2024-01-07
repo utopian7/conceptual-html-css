@@ -1,30 +1,65 @@
  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
-}.hero{
-    background-image: url('Images/lion-1.jpg.jpg');
-    background-size: cover;
-    background-position: bottom center;
-    height: 120vh;
-    background-repeat: no-repeat;
-}
-.hero h1{
-    color: azure ;
-    font-size: 90px;
-    text-align: justify;
-    font-weight: 900;
-    font-family: cursive;
-    letter-spacing: 5px;
-    padding-top: 10px;
-}
-.article{
-    width: 80%;
-    margin-right: auto;
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Lato', sans-serif;
+ }
+
+ .hero {
+     background-image: url('Images/lion-1.jpg.jpg');
+     background-size: cover;
+     background-position: bottom center;
+     height: 120vh;
+     background-repeat: no-repeat;
+ }
+
+ .hero h1 {
+     color: azure;
+     font-size: 90px;
+     text-align: justify;
+     font-weight: 900;
+     font-family: cursive;
+     letter-spacing: 5px;
+     padding-top: 10px;
+ }
+
+ .article {
+     width: 80%;
+     /* margin-right: auto;
     margin-left: auto;
     margin-top: 60px;
-    margin-bottom: 60px;
-}
+    margin-bottom: 60px; */
+     border-width: 15px;
+     border-color: rgb(8, 34, 34);
+     border-style: groove;
+     margin: 60px auto;
+     background-color: rgb(126, 227, 227);
+     padding: 60px;
+
+ }
+
+ .article h2 {
+     text-align: center;
+     font-size: 48px;
+     border-width: 5pxpx;
+     border-color: rgb(8, 34, 34);
+     border-style: groove;
+     border-top: 0;
+     border-right: 0;
+     border-left: 0;
+     padding-bottom: 15px;
+     margin-bottom: 25px;
+
+ }
+
+ .article p{
+    font-size: 25px;
+    line-height: 2em;
+
+ }
+
+ .article p .imp{
+    font-size: 2em;
+ }
