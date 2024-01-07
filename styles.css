@@ -13,34 +13,36 @@
      background-position: bottom center;
      height: 120vh;
      background-repeat: no-repeat;
+     clip-path: polygon(9% 0, 93% 0, 100% 85%, 51% 100%, 0 83%);
+     
  }
 
  .hero h1 {
      color: azure;
      font-size: 90px;
-     text-align: justify;
+     text-align: center;
      font-weight: 900;
      font-family: cursive;
      letter-spacing: 5px;
-     padding-top: 10px;
+     padding-bottom: 30px;
+     
  }
 
- .article ,#cow-type {
+ .article,
+ #cow-type {
      width: 80%;
      /* margin-right: auto;
     margin-left: auto;
     margin-top: 60px;
     margin-bottom: 60px; */
-     border-width: 15px;
-     border-color: rgb(8, 34, 34);
-     border-style: groove;
      margin: 60px auto;
-     background-color: rgb(126, 227, 227);
+     background: linear-gradient(40deg, rgb(48, 128, 48) , rgb(136, 134, 134));
+    
      padding: 60px;
 
  }
 
- .article h2 {
+ .article h2, #cow-type h2 {
      text-align: center;
      font-size: 48px;
      border-width: 5pxpx;
@@ -54,13 +56,29 @@
 
  }
 
- .article p{
-    font-size: 25px;
-    line-height: 2em;
+ .article p {
+     font-size: 25px;
+     line-height: 2em;
 
  }
 
- .article p .imp{
-    font-size: 2em;
-    background-color: yellowgreen;
+ .article p .imp {
+     font-size: 2em;
+     background-color: yellowgreen;
+ }
+
+ .cow-images{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    
+ }
+
+ .cow-images div{
+    width: 300px;
+ }
+  
+ .cow-images img{
+    width: 100%;
  }
